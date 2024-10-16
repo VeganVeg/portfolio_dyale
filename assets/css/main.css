@@ -550,13 +550,13 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 64px;
+  font-size: 100px;
   font-weight: 700;
 }
 
 .hero p {
   margin: 5px 0 0 0;
-  font-size: 26px;
+  font-size: 40px;
 }
 
 .hero p span {
@@ -583,7 +583,8 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    font-size: 100px;
+    font-weight: 700;
   }
 
   .hero p {
