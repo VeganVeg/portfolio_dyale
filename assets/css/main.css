@@ -254,6 +254,7 @@ h6 {
   .navmenu a span,
   .navmenu a:focus span {
     display: none;
+    position: relative;
   }
 }
 
@@ -263,6 +264,7 @@ h6 {
 .navmenu li:hover>a {
   color: var(--contrast-color);
   background: var(--nav-hover-color);
+  
 }
 
 .navmenu a:hover,
@@ -595,6 +597,10 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.container-bullet{
+  justify-content: space-evenly;
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
