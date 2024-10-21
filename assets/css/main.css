@@ -597,8 +597,9 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.container-bullet{
-  justify-content: space-evenly;
+
+.row-about{
+  align-items: center;
 }
 
 .about .content h2 {
@@ -628,8 +629,29 @@ section,
   line-height: 0;
 }
 
-.about-ul{
-  width: auto;
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ville{
+  margin-bottom: 0 !important;
+}
+
+.telephone{
+  margin-bottom: 0 !important;
+}
+
+.progress-bar-wrap {
+  background: color-mix(in srgb, var(--default-color), transparent 90%);
+  height: 10px;
+}
+
+.progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
@@ -674,6 +696,11 @@ section,
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
+
+.section-title-skills{
+  padding-bottom: 20px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -711,11 +738,18 @@ section,
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
+
+.resume-section{
+  padding-top: 0;
+}
+
+
+
 .resume .resume-title {
   color: var(--heading-color);
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
+  
   margin-bottom: 20px;
 }
 
@@ -871,7 +905,13 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.services .service-item {
+
+.section-title-design{
+  padding: 60px 12px;
+  padding-bottom: 30px;
+}
+
+.service-item {
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
   height: 100%;
@@ -881,7 +921,7 @@ section,
   border-radius: 5px;
 }
 
-.services .service-item .icon {
+.service-item .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -892,108 +932,107 @@ section,
   position: relative;
 }
 
-.services .service-item .icon i {
+.service-item .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .service-item .icon svg {
+.service-item .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.services .service-item .icon svg path {
+.service-item .icon svg path {
   transition: 0.5s;
   fill: color-mix(in srgb, var(--default-color), transparent 95%);
 }
 
-.services .service-item h3 {
+.service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .service-item p {
+.service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item:hover {
+.service-item:hover {
   box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
 }
 
-.services .service-item.item-cyan i {
+.service-item.item-cyan i {
   color: #0dcaf0;
 }
 
-.services .service-item.item-cyan:hover .icon i {
+.service-item.item-cyan:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-cyan:hover .icon path {
+.service-item.item-cyan:hover .icon path {
   fill: #0dcaf0;
 }
 
-.services .service-item.item-orange i {
+.service-item.item-orange i {
   color: #fd7e14;
 }
 
-.services .service-item.item-orange:hover .icon i {
+.service-item.item-orange:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-orange:hover .icon path {
+.service-item.item-orange:hover .icon path {
   fill: #fd7e14;
 }
 
-.services .service-item.item-teal i {
+.service-item.item-teal i {
   color: #20c997;
 }
 
-.services .service-item.item-teal:hover .icon i {
+.service-item.item-teal:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-teal:hover .icon path {
+.service-item.item-teal:hover .icon path {
   fill: #20c997;
 }
-
-.services .service-item.item-red i {
+.service-item.item-red i {
   color: #df1529;
 }
 
-.services .service-item.item-red:hover .icon i {
+.service-item.item-red:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-red:hover .icon path {
+.service-item.item-red:hover .icon path {
   fill: #df1529;
 }
 
-.services .service-item.item-indigo i {
+.service-item.item-indigo i {
   color: #6610f2;
 }
 
-.services .service-item.item-indigo:hover .icon i {
+.service-item.item-indigo:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-indigo:hover .icon path {
+.service-item.item-indigo:hover .icon path {
   fill: #6610f2;
 }
 
-.services .service-item.item-pink i {
+.service-item.item-pink i {
   color: #f3268c;
 }
 
-.services .service-item.item-pink:hover .icon i {
+.service-item.item-pink:hover .icon i {
   color: #fff;
 }
 
-.services .service-item.item-pink:hover .icon path {
+.service-item.item-pink:hover .icon path {
   fill: #f3268c;
 }
 
