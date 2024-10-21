@@ -12,29 +12,41 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #45505b; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #0563bb; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+:root {
+  --background-color: #ffffff;
+  /* Background color for the entire website, including individual sections */
+  --default-color: #272829;
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #45505b;
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #0563bb;
+  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff;
+  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff;
+  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #45505b;  /* The default color of the main navmenu links */
-  --nav-hover-color: #0563bb; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #0563bb; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #45505b;
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #0563bb;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff;
+  /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #212529;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #0563bb;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -60,6 +72,11 @@
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
+
+html {
+  overflow-x: hidden;
+}
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -264,7 +281,7 @@ h6 {
 .navmenu li:hover>a {
   color: var(--contrast-color);
   background: var(--nav-hover-color);
-  
+
 }
 
 .navmenu a:hover,
@@ -598,8 +615,12 @@ section,
 # About Section
 --------------------------------------------------------------*/
 
-.row-about{
+.row-about {
   align-items: center;
+}
+
+.title-language {
+  font-weight: 700;
 }
 
 .about .content h2 {
@@ -629,16 +650,18 @@ section,
   line-height: 0;
 }
 
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.ville{
+.ville {
   margin-bottom: 0 !important;
 }
 
-.telephone{
+.telephone {
   margin-bottom: 0 !important;
 }
 
@@ -697,7 +720,7 @@ dl, ol, ul {
 # Skills Section
 --------------------------------------------------------------*/
 
-.section-title-skills{
+.section-title-skills {
   padding-bottom: 20px;
 }
 
@@ -739,7 +762,7 @@ dl, ol, ul {
 # Resume Section
 --------------------------------------------------------------*/
 
-.resume-section{
+.resume-section {
   padding-top: 0;
 }
 
@@ -749,7 +772,7 @@ dl, ol, ul {
   color: var(--heading-color);
   font-size: 26px;
   font-weight: 700;
-  
+
   margin-bottom: 20px;
 }
 
@@ -906,7 +929,7 @@ dl, ol, ul {
 # Services Section
 --------------------------------------------------------------*/
 
-.section-title-design{
+.section-title-design {
   padding: 60px 12px;
   padding-bottom: 30px;
 }
@@ -1000,6 +1023,7 @@ dl, ol, ul {
 .service-item.item-teal:hover .icon path {
   fill: #20c997;
 }
+
 .service-item.item-red i {
   color: #df1529;
 }
