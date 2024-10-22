@@ -21,7 +21,7 @@
 :root {
   --background-color: #ffffff;
   /* Background color for the entire website, including individual sections */
-  --default-color: #272829;
+  --default-color: #303030;
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #45505b;
   /* Color for headings, subheadings and title throughout the website */
@@ -57,10 +57,10 @@
 }
 
 .dark-background {
-  --background-color: #060606;
+  --background-color: #202020;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #252525;
+  --surface-color: #3a3a3a;
   --contrast-color: #ffffff;
 }
 
@@ -79,7 +79,7 @@ html {
 
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #EFEFEF;
   font-family: var(--default-font);
 }
 
@@ -231,7 +231,7 @@ h6 {
   list-style: none;
   padding: 0 0 20px 0;
   margin: 0;
-  width: 140px;
+  width: 170px;
 }
 
 .navmenu a,
@@ -272,7 +272,12 @@ h6 {
   .navmenu a:focus span {
     display: none;
     position: relative;
+    margin-left: 10px;
   }
+}
+
+.span-competence{
+  margin: 0 !important;
 }
 
 .navmenu a:hover,
@@ -479,7 +484,6 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: var(--background-color);
   padding: 60px 0;
   overflow: clip;
 }
@@ -556,7 +560,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background-color: rgb(226, 226, 226);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -571,6 +575,7 @@ section,
   margin: 0;
   font-size: 100px;
   font-weight: 700;
+  color: #303030;
 }
 
 .hero p {
@@ -617,6 +622,7 @@ section,
 
 .row-about {
   align-items: center;
+  padding-bottom: 45px;
 }
 
 .title-language {
@@ -764,6 +770,7 @@ ul {
 
 .resume-section {
   padding-top: 0;
+  padding: 0;
 }
 
 
@@ -935,8 +942,7 @@ ul {
 }
 
 .service-item {
-  background-color: var(--surface-color);
-  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+  background-color: rgb(226, 226, 226);
   height: 100%;
   padding: 60px 30px;
   text-align: center;
@@ -980,13 +986,11 @@ ul {
 
 .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
-.service-item:hover {
-  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
-}
+
 
 .service-item.item-cyan i {
   color: #0dcaf0;
