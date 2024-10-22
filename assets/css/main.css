@@ -79,7 +79,7 @@ html {
 
 body {
   color: var(--default-color);
-  background-color: #EFEFEF;
+  background-color: #ffffff;
   font-family: var(--default-font);
 }
 
@@ -560,7 +560,7 @@ section,
 
 .hero:before {
   content: "";
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(236, 236, 236);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -942,7 +942,7 @@ ul {
 }
 
 .service-item {
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(240, 240, 240);
   height: 100%;
   padding: 60px 30px;
   text-align: center;
