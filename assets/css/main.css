@@ -943,7 +943,6 @@ ul {
 
 .service-item {
   background-color: rgb(240, 240, 240);
-  height: 100%;
   padding: 60px 30px;
   text-align: center;
   transition: 0.3s;
@@ -980,17 +979,10 @@ ul {
 
 .service-item h3 {
   font-weight: 700;
-  margin: 10px 0 15px 0;
+  margin-top: 15px;
+  margin-bottom: 0;
   font-size: 22px;
 }
-
-.service-item p {
-  line-height: 24px;
-  font-size: 16px;
-  margin-bottom: 0;
-}
-
-
 
 .service-item.item-cyan i {
   color: #0dcaf0;
