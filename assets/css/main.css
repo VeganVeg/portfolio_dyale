@@ -834,6 +834,11 @@ ul {
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+
+.section-title-portfolio{
+  padding-bottom: 20px;
+}
+
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -879,18 +884,12 @@ ul {
 .portfolio .portfolio-item {
   position: relative;
   overflow: hidden;
-}
-
-.portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  left: 12px;
-  right: 12px;
-  bottom: -100%;
-  z-index: 3;
-  transition: all ease-in-out 0.5s;
-  background: color-mix(in srgb, var(--background-color), transparent 10%);
+  height: 500px;
+  width: 300px;
+  background-color: rgb(240, 240, 240);
   padding: 15px;
+  margin: 0 15px;
+  border-radius: 5px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
