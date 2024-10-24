@@ -892,6 +892,11 @@ ul {
   border-radius: 5px;
 }
 
+.img-scrolly{
+  width: 100%;
+  object-fit: contain;
+}
+
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
   font-weight: 600;
