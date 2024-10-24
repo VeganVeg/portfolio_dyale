@@ -895,6 +895,7 @@ ul {
 .img-scrolly{
   width: 100%;
   object-fit: contain;
+  border-radius: 5px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
