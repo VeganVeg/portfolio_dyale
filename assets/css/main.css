@@ -892,6 +892,10 @@ ul {
   border-radius: 5px;
 }
 
+.portfolio-item:hover{
+  transition: ;
+}
+
 .img-scrolly{
   width: 100%;
   object-fit: cover;
