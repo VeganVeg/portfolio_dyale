@@ -890,10 +890,12 @@ ul {
   padding: 15px;
   margin: 0 15px;
   border-radius: 5px;
+  transition: 0.3s;
 }
 
 .portfolio-item:hover{
-  transition: ;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 5px #929292;
 }
 
 .img-scrolly{
@@ -946,6 +948,18 @@ iframe{
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
+}
+
+@media (min-width:992px){
+  .port-send{
+    margin-top: 30px !important;
+  }
+}
+
+@media (min-width:1467px){
+  .port-send{
+    margin-top: 0 !important;
+  }
 }
 
 /*--------------------------------------------------------------
