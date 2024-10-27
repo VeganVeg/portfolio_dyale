@@ -73,6 +73,19 @@
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 
+/*--------------------------------------------------------------
+# Styling to hide section à propos, resume
+--------------------------------------------------------------*/
+.resume, .row-about{
+  display: none;
+}
+
+.about{
+  padding-bottom: 0px !important;
+}
+
+
+
 html {
   overflow-x: hidden;
 }
@@ -1556,4 +1569,10 @@ iframe{
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.section-title p{
+    color: var(--default-color);
+  font-family: 'Raleway';
+  font-weight: 500;
 }
