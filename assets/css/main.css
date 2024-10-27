@@ -638,6 +638,10 @@ section,
   padding-bottom: 45px;
 }
 
+.about-txt1{
+  margin-bottom: 30px !important;
+}
+
 .title-language {
   font-weight: 700;
 }
@@ -1575,4 +1579,20 @@ iframe{
     color: var(--default-color);
   font-family: 'Raleway';
   font-weight: 500;
+}
+
+/*--------------------------------------------------------------
+# header detailes
+--------------------------------------------------------------*/
+.header-details{
+  width: 100%;
+}
+
+.container-title{
+  width: 100%;
+  display: flex;
+}
+
+.header-toggle{
+  display: none;
 }
