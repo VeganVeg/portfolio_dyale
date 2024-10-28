@@ -1590,7 +1590,8 @@ iframe{
 
 .container-title{
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .header-toggle{
@@ -1612,5 +1613,12 @@ iframe{
 }
 
 .header-btn:hover{
-  
+  background-color: var(--accent-color);
+  color: #ECECEC;
+}
+
+.title-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
