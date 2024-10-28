@@ -1595,7 +1595,6 @@ iframe{
 }
 
 .header-toggle{
-  display: none;
 }
 
 .header-btn{
@@ -1621,4 +1620,16 @@ iframe{
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.project-visual{
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
+}
+
+video{
+  height: auto;
+  width: 65%;
 }
