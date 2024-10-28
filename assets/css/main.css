@@ -1594,9 +1594,6 @@ iframe{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.header-toggle{
-}
-
 .header-btn{
   font-family:  var(--nav-font);
   font-size: 16px;
@@ -1631,5 +1628,5 @@ iframe{
 
 video{
   height: auto;
-  width: 65%;
+  max-width: 50%;
 }
