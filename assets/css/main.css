@@ -1588,10 +1588,15 @@ iframe{
   width: 100%;
 }
 
+.title-container .title{
+  text-align: center;
+  font-size: 36px;
+}
+
 .container-title{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .header-btn{
@@ -1623,10 +1628,14 @@ iframe{
   object-fit: cover;
   display: flex;
   justify-content: center;
-  width: 100% !important;
+
 }
 
 video{
-  height: auto;
+  min-width: 700px;
   max-width: 50%;
+}
+
+.title-description{
+  margin-top: 40px;
 }
