@@ -77,7 +77,7 @@
 # Styling to hide section à propos, resume
 --------------------------------------------------------------*/
 .resume, .row-about{
-  display: none;
+  
 }
 
 .about{
@@ -640,6 +640,10 @@ section,
 
 .about-txt1{
   margin-bottom: 30px !important;
+}
+
+.about p{
+  font-size: 17px !important;
 }
 
 .title-language {
@@ -1628,7 +1632,7 @@ iframe{
   object-fit: cover;
   display: flex;
   justify-content: center;
-
+  margin-bottom: 40px;
 }
 
 video{
@@ -1637,7 +1641,6 @@ video{
 }
 
 .title-description{
-  margin-top: 40px;
   padding-bottom: 20px;
 }
 
@@ -1645,4 +1648,55 @@ video{
   color: var(--default-color);
   font-family: 'Raleway';
   font-weight: 500;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 60px;
+}
+
+.description span {
+  font-weight: 600;
+}
+
+.about-details{
+  padding-top: 0 !important;
+}
+
+.about-details .row-about{
+  display: flex;
+}
+
+.lang-used{
+  font-family: 'Raleway';
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.uli li{
+  font-size: 20px;
+  background-color: #ECECEC;
+  margin-bottom: 0 !important;
+  width: auto;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--default-color);
+  font-family: 'Raleway';
+  margin-right: 5px;
+  margin-bottom: 5px !important;
+}
+
+.uli li strong{
+  margin-right: 0 !important;
+  color: var(--default-color) !important;
+}
+
+.uli{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-details .about-ul{
+  width: auto;
 }
