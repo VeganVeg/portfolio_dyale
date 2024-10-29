@@ -635,7 +635,7 @@ section,
 
 .row-about {
   align-items: center;
-  padding-bottom: 45px;
+  padding-bottom: 100px;
 }
 
 .about-txt1{
@@ -1271,6 +1271,11 @@ iframe{
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+
+.portfolio-details{
+  padding-top: 45px;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1637,7 +1642,8 @@ iframe{
   object-fit: cover;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  flex-direction: column;
+  align-items: center;
 }
 
 video{
@@ -1717,4 +1723,38 @@ video{
 .tech-used{
   padding: 0;
   margin-bottom: 25px;
+}
+
+.info p{
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.test-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.test-btn{
+  font-family: var(--nav-font);
+  font-size: 17px;
+  font-weight: 500;
+  border: 2px solid var(--accent-color);
+  border-radius: 50px;
+  width: 100px;
+  padding: 6px;
+  text-align: center;
+  color: var(--accent-color);
+  transition: 0.3s;
+  background-color: var(--background-color);
+}
+
+.test-btn:hover{
+  background-color: var(--accent-color);
+  color: #ECECEC;
 }
