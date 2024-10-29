@@ -1638,4 +1638,11 @@ video{
 
 .title-description{
   margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.description{
+  color: var(--default-color);
+  font-family: 'Raleway';
+  font-weight: 500;
 }
