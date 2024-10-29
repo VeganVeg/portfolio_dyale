@@ -1600,8 +1600,8 @@ iframe{
 .container-title{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  margin: 0 auto;
+  grid-template-columns: 2fr 3fr 2fr;
+  
 }
 
 .header-btn{
@@ -1616,6 +1616,10 @@ iframe{
   color: var(--accent-color);
   transition: 0.3s;
   background-color: var(--background-color);
+}
+
+.btn-container{
+  margin-left: 50px;
 }
 
 .header-btn:hover{
@@ -1653,7 +1657,7 @@ video{
   font-weight: 500;
   text-align: center;
   font-size: 17px;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
 }
 
 .description span {
@@ -1708,4 +1712,9 @@ video{
 .about-details .about-ul{
   width: auto;
   padding: 0 30px;
+}
+
+.tech-used{
+  padding: 0;
+  margin-bottom: 25px;
 }
