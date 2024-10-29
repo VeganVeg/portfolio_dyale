@@ -460,7 +460,7 @@ h6 {
   --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 40px 0;
   position: relative;
 }
 
@@ -1601,16 +1601,17 @@ iframe{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  margin: 0 auto;
 }
 
 .header-btn{
   font-family:  var(--nav-font);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   border: 2px solid var(--accent-color);
   border-radius: 50px;
-  width: 125px;
-  padding: 8px;
+  width: 140px;
+  padding: 14px;
   text-align: center;
   color: var(--accent-color);
   transition: 0.3s;
@@ -1643,7 +1644,7 @@ video{
 }
 
 .title-description{
-  padding-bottom: 20px;
+  padding-bottom: 0;
 }
 
 .description{
