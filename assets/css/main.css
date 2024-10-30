@@ -1648,9 +1648,18 @@ iframe{
 
 video{
   min-width: 700px;
-  max-width: 60%;
+  max-width: 50%;
   border: 10px solid #ECECEC;
   border-radius: 5px;
+}
+
+iframe{
+  width: 388px;
+  height: 670px;
+  margin-bottom: 35px;
+  border-radius: 30px;
+  border: 10px solid #303030;
+  box-shadow: 0 0 10px 5px #b3b3b3;
 }
 
 .title-description{
@@ -1663,7 +1672,7 @@ video{
   font-weight: 500;
   text-align: center;
   font-size: 17px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .description span {
@@ -1720,6 +1729,10 @@ video{
   padding: 0 30px;
 }
 
+.section-tech-used{
+  padding-bottom: 0;
+}
+
 .tech-used{
   padding: 0;
   margin-bottom: 25px;
@@ -1757,4 +1770,53 @@ video{
 .test-btn:hover{
   background-color: var(--accent-color);
   color: #ECECEC;
+}
+
+/*--------------------------------------------------------------
+# contact
+--------------------------------------------------------------*/
+
+.contact{
+  padding-bottom: 80px;
+}
+
+.contact-info{
+  margin-bottom: 50px;
+}
+
+.contact-info .bi::before{
+  background-color: var(--accent-color);
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 10px;
+}
+
+
+.contact-info p{
+  margin: 0px !important;
+  font-size: 22px;
+  font-family: 'Raleway';
+  font-weight: 500;
+}
+
+.contact-link{
+  text-align: center;
+  margin: 10px;
+}
+
+.contact-link .bi-github{
+  color: #303030;
+}
+
+.contact-link .bi-linkedin{
+  color: #0E76A8;
+}
+
+.contact-link .bi-github::before{
+  margin: 0 5px;
+}
+
+.contact-link .bi-linkedin:before{
+  margin: 0 5px;
 }
