@@ -76,11 +76,12 @@
 /*--------------------------------------------------------------
 # Styling to hide section à propos, resume
 --------------------------------------------------------------*/
-.resume, .row-about{
+.resume,
+.row-about {
   display: none;
 }
 
-.about{
+.about {
   padding-bottom: 0px !important;
 }
 
@@ -289,7 +290,7 @@ h6 {
   }
 }
 
-.span-competence{
+.span-competence {
   margin: 0 !important;
 }
 
@@ -638,11 +639,11 @@ section,
   padding-bottom: 100px;
 }
 
-.about-txt1{
+.about-txt1 {
   margin-bottom: 30px !important;
 }
 
-.about p{
+.about p {
   font-size: 17px !important;
 }
 
@@ -856,7 +857,7 @@ ul {
 # Portfolio Section
 --------------------------------------------------------------*/
 
-.section-title-portfolio{
+.section-title-portfolio {
   padding-bottom: 20px;
 }
 
@@ -914,19 +915,19 @@ ul {
   transition: 0.3s;
 }
 
-.portfolio-item:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 10px 5px #929292;
+.portfolio-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 5px #929292;
 }
 
-.img-scrolly{
+.img-scrolly {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
   height: 100%;
 }
 
-iframe{
+iframe {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -971,14 +972,14 @@ iframe{
   bottom: 0;
 }
 
-@media (min-width:992px){
-  .port-send{
+@media (min-width:992px) {
+  .port-send {
     margin-top: 30px !important;
   }
 }
 
-@media (min-width:1467px){
-  .port-send{
+@media (min-width:1467px) {
+  .port-send {
     margin-top: 0 !important;
   }
 }
@@ -1272,7 +1273,7 @@ iframe{
 # Portfolio Details Section
 --------------------------------------------------------------*/
 
-.portfolio-details{
+.portfolio-details {
   padding-top: 45px;
 }
 
@@ -1584,8 +1585,8 @@ iframe{
   /* Add your styles here */
 }
 
-.section-title p{
-    color: var(--default-color);
+.section-title p {
+  color: var(--default-color);
   font-family: 'Raleway';
   font-weight: 500;
 }
@@ -1593,24 +1594,24 @@ iframe{
 /*--------------------------------------------------------------
 # header detailes
 --------------------------------------------------------------*/
-.header-details{
+.header-details {
   width: 100%;
 }
 
-.title-container .title{
+.title-container .title {
   text-align: center;
   font-size: 36px;
 }
 
-.container-title{
+.container-title {
   width: 100%;
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
-  
+
 }
 
-.header-btn{
-  font-family:  var(--nav-font);
+.header-btn {
+  font-family: var(--nav-font);
   font-size: 20px;
   font-weight: 500;
   border: 2px solid var(--accent-color);
@@ -1623,22 +1624,22 @@ iframe{
   background-color: var(--background-color);
 }
 
-.btn-container{
+.btn-container {
   margin-left: 50px;
 }
 
-.header-btn:hover{
+.header-btn:hover {
   background-color: var(--accent-color);
   color: #ECECEC;
 }
 
-.title-container{
+.title-container {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.project-visual{
+.project-visual {
   object-fit: cover;
   display: flex;
   justify-content: center;
@@ -1646,18 +1647,24 @@ iframe{
   align-items: center;
 }
 
-.project-visual-ervle{
+.project-visual-ervle {
   margin-bottom: 35px !important;
+
+  min-width: 700px;
+  max-width: 50%;
 }
 
-video{
+
+
+
+video {
   min-width: 700px;
   max-width: 50%;
   border: 10px solid #ECECEC;
   border-radius: 5px;
 }
 
-iframe{
+.iframe-fivars {
   width: 405px;
   height: 670px;
   margin-bottom: 35px;
@@ -1666,11 +1673,17 @@ iframe{
   box-shadow: 0 0 10px 5px #b3b3b3;
 }
 
-.title-description{
+.iframe-ervle {
+  aspect-ratio: 16/9;
+  border: 10px solid #ECECEC;
+  border-radius: 5px;
+}
+
+.title-description {
   padding-bottom: 0;
 }
 
-.description{
+.description {
   color: var(--default-color);
   font-family: 'Raleway';
   font-weight: 500;
@@ -1683,24 +1696,24 @@ iframe{
   font-weight: 600;
 }
 
-.about-details{
+.about-details {
   padding-top: 0 !important;
 }
 
-.about-details .row-about{
+.about-details .row-about {
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 
-.lang-used{
+.lang-used {
   font-family: 'Raleway';
   font-weight: 700;
   margin-bottom: 15px;
   text-align: center;
 }
 
-.uli li{
+.uli li {
   font-size: 20px;
   background-color: #ECECEC;
   margin-bottom: 0 !important;
@@ -1712,46 +1725,47 @@ iframe{
   margin-right: 5px;
 }
 
-.uli .javascript, .uli .bootstrap{
+.uli .javascript,
+.uli .bootstrap {
   margin-top: 5px;
 }
 
-.uli li:last-child{
+.uli li:last-child {
   margin-top: 5px;
 }
 
-.uli-fivars li:last-child{
+.uli-fivars li:last-child {
   margin-top: 5px;
 }
 
 
-.uli li strong{
+.uli li strong {
   margin-right: 0 !important;
   color: var(--default-color) !important;
 }
 
-.uli{
+.uli {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 300px;
 }
 
-.about-details .about-ul{
+.about-details .about-ul {
   width: auto;
   padding: 0 30px;
 }
 
-.section-tech-used{
+.section-tech-used {
   padding-bottom: 0;
 }
 
-.tech-used{
+.tech-used {
   padding: 0;
   margin-bottom: 25px;
 }
 
-.info p{
+.info p {
   text-align: center;
   font-family: 'Raleway';
   font-size: 17px;
@@ -1759,14 +1773,14 @@ iframe{
   margin: 0;
 }
 
-.test-container{
+.test-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 35px;
 }
 
-.test-btn{
+.test-btn {
   font-family: var(--nav-font);
   font-size: 17px;
   font-weight: 500;
@@ -1780,7 +1794,7 @@ iframe{
   background-color: var(--background-color);
 }
 
-.test-btn:hover{
+.test-btn:hover {
   background-color: var(--accent-color);
   color: #ECECEC;
 }
@@ -1789,15 +1803,15 @@ iframe{
 # contact
 --------------------------------------------------------------*/
 
-.contact{
+.contact {
   padding-bottom: 80px;
 }
 
-.contact-info{
+.contact-info {
   margin-bottom: 50px;
 }
 
-.contact-info .bi::before{
+.contact-info .bi::before {
   background-color: var(--accent-color);
   padding: 15px;
   border-radius: 50%;
@@ -1806,30 +1820,30 @@ iframe{
 }
 
 
-.contact-info p{
+.contact-info p {
   margin: 0px !important;
   font-size: 22px;
   font-family: 'Raleway';
   font-weight: 500;
 }
 
-.contact-link{
+.contact-link {
   text-align: center;
   margin: 10px;
 }
 
-.contact-link .bi-github{
+.contact-link .bi-github {
   color: #303030;
 }
 
-.contact-link .bi-linkedin{
+.contact-link .bi-linkedin {
   color: #0E76A8;
 }
 
-.contact-link .bi-github::before{
+.contact-link .bi-github::before {
   margin: 0 5px;
 }
 
-.contact-link .bi-linkedin:before{
+.contact-link .bi-linkedin:before {
   margin: 0 5px;
 }
