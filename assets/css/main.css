@@ -1646,6 +1646,10 @@ iframe{
   align-items: center;
 }
 
+.project-visual-ervle{
+  margin-bottom: 35px !important;
+}
+
 video{
   min-width: 700px;
   max-width: 50%;
