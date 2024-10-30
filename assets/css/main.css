@@ -1654,7 +1654,7 @@ video{
 }
 
 iframe{
-  width: 388px;
+  width: 405px;
   height: 670px;
   margin-bottom: 35px;
   border-radius: 30px;
@@ -1708,9 +1708,18 @@ iframe{
   margin-right: 5px;
 }
 
-.uli li:last-child{
-  margin: 0;
+.uli .javascript, .uli .bootstrap{
+  margin-top: 5px;
 }
+
+.uli li:last-child{
+  margin-top: 5px;
+}
+
+.uli-fivars li:last-child{
+  margin-top: 5px;
+}
+
 
 .uli li strong{
   margin-right: 0 !important;
