@@ -1649,12 +1649,14 @@ iframe {
 
 .project-visual-ervle {
   margin-bottom: 35px !important;
-
-  min-width: 700px;
-  max-width: 50%;
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
 }
 
-
+.ytp-chrome-top {
+  z-index: 0 !important;
+}
 
 
 video {
@@ -1674,6 +1676,7 @@ video {
 }
 
 .iframe-ervle {
+  display: flex;
   aspect-ratio: 16/9;
   border: 10px solid #ECECEC;
   border-radius: 5px;
