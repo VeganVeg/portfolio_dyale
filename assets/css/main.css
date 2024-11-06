@@ -533,7 +533,7 @@ section,
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -647,9 +647,14 @@ section,
   position: relative;
   width: 60px;
   height: auto;
-
 }
 
+.right-bracket{
+  display: flex;
+  position: relative;
+  width: 60px;
+  height: auto;
+}
 
 @media (min-width: 768px){
   .left-bracket{
@@ -658,6 +663,14 @@ section,
     width: 80px;
     height: auto;
     margin-right: 20px;
+  }
+
+  .right-bracket{
+    display: flex;
+    position: relative;
+    width: 80px;
+    height: auto;
+    margin-left: 20px;
   }
 
   .hero h2 {
@@ -670,6 +683,29 @@ section,
   .col-lg-6 {
       flex: 0 0 auto;
       width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .left-bracket, .right-bracket{
+    width: 100px;
+  }
+
+  .left-bracket{
+    margin-right: 40px;
+  }
+
+  .right-bracket{
+    margin-left: 40px;
+  }
+
+  .hero h2 {
+    font-size: 120px;
+    font-weight: 700;
+  }
+
+  .hero p{
+    font-size: 50px;
   }
 }
 
@@ -687,7 +723,7 @@ section,
 }
 
 .about p {
-  font-size: 17px !important;
+  font-size: 20px !important;
 }
 
 .title-language {
