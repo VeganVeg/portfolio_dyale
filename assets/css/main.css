@@ -256,34 +256,39 @@ h6 {
   padding: 15px 1vw;
 }
 
+@media (max-width: 1200px){
+  .nav-item{
+    font-size: 20px;
+  }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+outline: red;
+box-shadow: red;
+}
+
+.navbar-container button{
+  border: none;
+}
+
+.navbar-container button:focus{
+  border: none;
+  outline: none;
+}
+
 .nav-item a{
   padding: 10px 25px;
   border-radius: 60px;
   transition: 0.3s;
-  background-color: #fff;
+  color: var(--default-color);
 }
 
 .nav-item a:hover{
   background-color: var(--accent-color);
   color: rgb(236, 236, 236);
   
-}
-
-.navmenu a,
-.navmenu a:focus {
-  color: var(--nav-color);
-  font-family: var(--nav-font);
-  display: flex;
-  align-items: center;
-  padding: 10px 18px;
-  margin-bottom: 8px;
-  font-size: 15px;
-  border-radius: 50px;
-  background: color-mix(in srgb, var(--default-color), transparent 92%);
-  height: 56px;
-  width: 100%;
-  overflow: hidden;
-  transition: 0.3s;
 }
 
 .navmenu a i,
@@ -479,17 +484,17 @@ h6 {
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
-  --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
-  color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 40px 0;
+
+
+  padding-top: 40px;
   position: relative;
 }
 
 .page-title h1 {
-  font-size: 28px;
+  font-size: 46px;
   font-weight: 700;
   margin: 0;
+  color: var(--default-color);
 }
 
 .page-title .breadcrumbs ol {
@@ -538,6 +543,7 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color: var(--default-color);
 }
 
 .section-title h2:before {
@@ -585,7 +591,7 @@ section,
 
 .hero:before {
   content: "";
-  background-color: rgb(236, 236, 236);
+  background-color: #fff;
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -846,6 +852,7 @@ ul {
   display: block;
   font-weight: 600;
   font-family: var(--heading-font);
+  font-size: 16px;
 }
 
 .skills .progress .skill .val {
@@ -1112,7 +1119,7 @@ iframe {
   font-weight: 700;
   margin-top: 15px;
   margin-bottom: 0;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .service-item.item-cyan i {
@@ -1679,7 +1686,7 @@ iframe {
 
 .title-container .title {
   text-align: center;
-  font-size: 36px;
+  font-size: 38px;
 }
 
 .container-title {
@@ -1691,25 +1698,26 @@ iframe {
 
 .header-btn {
   font-family: var(--nav-font);
-  font-size: 20px;
-  font-weight: 500;
-  border: 2px solid var(--accent-color);
-  border-radius: 50px;
-  width: 140px;
-  padding: 14px;
-  text-align: center;
-  color: var(--accent-color);
+  font-size: 24px;
+  background-color: #fff;
+  border: none;
+}
+
+.header-btn a{
+  padding: 10px 25px;
+  border-radius: 60px;
   transition: 0.3s;
-  background-color: var(--background-color);
+  color: var(--default-color);
+}
+
+.header-btn a:hover{
+  background-color: var(--accent-color);
+  color: rgb(236, 236, 236);
+  
 }
 
 .btn-container {
-  margin-left: 50px;
-}
-
-.header-btn:hover {
-  background-color: var(--accent-color);
-  color: #ECECEC;
+  margin-left: 60px;
 }
 
 .title-container {
@@ -1770,7 +1778,7 @@ video {
   font-family: 'Raleway';
   font-weight: 500;
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 
@@ -1793,6 +1801,7 @@ video {
   font-weight: 700;
   margin-bottom: 15px;
   text-align: center;
+  color: var(--default-color);
 } 
 
 .uli li {
