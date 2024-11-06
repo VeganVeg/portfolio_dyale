@@ -183,7 +183,6 @@ h6 {
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
-  min-width: 200px;
 }
 
 @media (max-width: 1199px) {
@@ -236,16 +235,40 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-.navmenu {
-  padding: 0;
+
+.navbar{
+  display: flex;
+  position: absolute;
   z-index: 9997;
+  width: 100%;
 }
 
-.navmenu ul {
-  list-style: none;
-  padding: 0 0 20px 0;
-  margin: 0;
-  width: 170px;
+.navbar-container{
+  padding-right: 3vw;
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.nav-item{
+  font-family: var(--nav-font);
+  font-size: 24px;
+  border-radius: 15px;
+  padding: 15px 1vw;
+}
+
+.nav-item a{
+  padding: 10px 25px;
+  border-radius: 60px;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+.nav-item a:hover{
+  background-color: var(--accent-color);
+  color: rgb(236, 236, 236);
+  
 }
 
 .navmenu a,
@@ -1714,7 +1737,7 @@ video {
   font-weight: 700;
   margin-bottom: 15px;
   text-align: center;
-}
+} 
 
 .uli li {
   font-size: 20px;
@@ -1729,7 +1752,8 @@ video {
 }
 
 .uli .javascript,
-.uli .bootstrap {
+.uli .bootstrap,
+.uli .figma {
   margin-top: 5px;
 }
 
@@ -1849,4 +1873,8 @@ video {
 
 .contact-link .bi-linkedin:before {
   margin: 0 5px;
+}
+
+.figma{
+  background-color: #fff;
 }

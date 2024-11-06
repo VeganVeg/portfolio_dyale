@@ -38,19 +38,34 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex flex-column justify-content-center">
+  <header id="header" class="">
 
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <i class="header-toggle"></i>
 
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Accueil</span></a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i><span>À&nbsp;propos</span></a></li>
-        <li><a href="#skills"><i class="bi bi-clipboard-data navicon"></i><span
-              class="span-competence">Compétences</span></a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-      </ul>
+    <nav class="navbar navbar-light navbar-expand-xl py-4">
+      <div class="container-fluid navbar-container">
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mainNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav pt-3 pt-xl-0">
+            <li class="nav-item">
+              <a href="#about" class="active">À propos</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="active">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="active">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="active">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
   </header>
