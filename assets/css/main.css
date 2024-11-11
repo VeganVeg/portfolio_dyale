@@ -729,7 +729,7 @@ section,
 }
 
 .about p {
-  font-size: 20px !important;
+  font-size: 18px !important;
 }
 
 .title-language {
@@ -788,6 +788,12 @@ ul {
   height: 10px;
   transition: 0.9s;
   background-color: var(--accent-color);
+}
+
+@media (min-width: 1200px){
+  .about p {
+    font-size: 20px !important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1104,12 +1110,6 @@ iframe {
   position: relative;
 }
 
-.service-item .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .service-item .icon svg path {
   transition: 0.5s;
   fill: color-mix(in srgb, var(--default-color), transparent 95%);
@@ -1119,7 +1119,7 @@ iframe {
   font-weight: 700;
   margin-top: 15px;
   margin-bottom: 0;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .service-item.item-cyan i {
@@ -1938,8 +1938,4 @@ video {
 
 .contact-link .bi-linkedin:before {
   margin: 0 5px;
-}
-
-.figma{
-  background-color: #fff;
 }
